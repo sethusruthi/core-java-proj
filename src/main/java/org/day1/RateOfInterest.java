@@ -12,8 +12,8 @@ public class RateOfInterest {
         System.out.println("enter the no of years");
         double years = sc.nextDouble();
 
-        double Total = (pAmount*rInterest*years)/100;
-        System.out.println("The simple interest is " +Total);
+        double simpleInterest = (pAmount*rInterest*years)/100;
+        System.out.println("The simple interest is " +simpleInterest);
 
     }
 }
